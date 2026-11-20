@@ -1,0 +1,8 @@
+{
+  "name": "Sample payload",
+  "fields": [
+    {"name": "Mach-O header", "offset": 0, "length": 32},
+    {"name": "Segment command and section", "offset": 32, "length": 152},
+    {"name": "ASCII label", "offset": 184, "length": 22}
+  ]
+}
